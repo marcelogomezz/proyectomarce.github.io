@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif; /* Aplicar la fuente Roboto a todo el cuerpo de la página */
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    margin: 30px auto;
+    width: 350px;
+    padding: 50px;
+}
+
+.container  {
+    border-radius: 100px;
+    background-color: #467d8d;
+    padding-inline: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    color: #333;
+}
+
+.formulario {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 100px;
+    border-radius: 5px;
+    background-color: #77e6d2;
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+label, input, select, button {
+    display: block;
+    margin: 10px auto; /* Centra los elementos horizontalmente */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px; /* Agregamos bordes redondeados */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+	transform: scale(0.90);
+}
